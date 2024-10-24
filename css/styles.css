@@ -216,7 +216,7 @@ footer {
   grid-column: 2/3;
 }
 
-@media (min-width: 999px) {
+@media (min-width: 1000px) {
   .card {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
