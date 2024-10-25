@@ -22,8 +22,8 @@ html {
 .wrapper {
   font-family: Poppins;
   max-width: 1200px;
-  padding: 2rem;
-  margin: 2rem auto;
+  padding: 2rem 0;
+  /* margin: 2rem auto; */
 }
 h1 {
   font-size: 3rem;
@@ -56,6 +56,7 @@ img {
 body {
   font-size: 1.125rem;
   line-height: 1.5;
+  background-color: var(--darkblue);
 }
 header {
   border-bottom: 2px solid var(--sunglow);
@@ -178,9 +179,9 @@ footer {
   h2 {
     font-size: 1.75rem;
   }
-  header {
+  /* header {
     padding: 2rem;
-  }
+  } */
   .maincard {
     padding: 0;
     margin: 0;
@@ -224,8 +225,7 @@ footer {
   }
 
   .wrapper {
-    background-color: var(--darkblue);
-    margin: 2rem;
+    /* padding: 2rem; */
   }
   .maincard {
     padding: 0;
@@ -257,7 +257,7 @@ footer {
     grid-column: 2/3;
   }
 }
-@media (min-width: 1131px) {
+@media (min-width: 979px) {
   header {
     justify-content: space-between;
     align-items: flex-end;
