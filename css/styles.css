@@ -23,7 +23,7 @@ html {
   font-family: Poppins;
   max-width: 1200px;
   padding: 2rem 0;
-  /* margin: 2rem auto; */
+  margin: 2rem auto;
 }
 h1 {
   font-size: 3rem;
@@ -224,9 +224,6 @@ footer {
     gap: 5rem;
   }
 
-  .wrapper {
-    /* padding: 2rem; */
-  }
   .maincard {
     padding: 0;
     margin: 0;
@@ -257,7 +254,7 @@ footer {
     grid-column: 2/3;
   }
 }
-@media (min-width: 979px) {
+@media (min-width: 999px) {
   header {
     justify-content: space-between;
     align-items: flex-end;
