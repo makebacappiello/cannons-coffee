@@ -82,6 +82,10 @@ header {
 
   /* border: 5px solid pink; */
 }
+svg {
+  width: 20px;
+  height: 20px;
+}
 
 nav ul {
   display: flex;
