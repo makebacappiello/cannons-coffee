@@ -85,6 +85,7 @@ header {
 svg {
   width: 20px;
   height: 20px;
+  color: #2b70e4;
 }
 
 nav ul {
@@ -173,7 +174,9 @@ footer {
 .gridlattee {
   padding: 0;
 }
-
+#burger-button {
+  display: none;
+}
 @media (min-width: 650px) {
   .card {
     display: grid;
@@ -272,5 +275,22 @@ footer {
   }
   .logo {
     justify-content: flex-start;
+  }
+}
+@media (max-width: 468px) {
+  #burger-button {
+    display: block;
+    margin: 1rem auto;
+    background-color: #063270;
+    border-radius: 50%;
+  }
+  nav ul {
+    display: none;
+  }
+  svg {
+    display: none;
+  }
+  .visible {
+    display: block;
   }
 }
